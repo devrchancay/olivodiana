@@ -24,7 +24,7 @@ export default function HomeHero() {
               >
                 <div className="flex flex-shrink-0 flex-grow items-center lg:flex-grow-0">
                   <div className="flex w-full items-center justify-center md:justify-between md:w-auto">
-                    <a href="/">
+                    <a href="#">
                       <span className="sr-only">Abg. Diana Olivo Moreira</span>
                       <div className="flex items-center">
                         <svg
