@@ -7,7 +7,7 @@ export default function HomeCta() {
         className="absolute inset-x-0 top-0 hidden h-1/2 bg-gray-50 lg:block"
         aria-hidden="true"
       />
-      <div className="mx-auto max-w-7xl bg-yellow-600 lg:bg-transparent lg:px-8">
+      <div className="mx-auto max-w-7xl bg-rob-roy-600 lg:bg-transparent lg:px-8">
         <div className="lg:grid lg:grid-cols-12">
           <div className="relative z-10 lg:col-span-4 lg:col-start-1 lg:row-start-1 lg:bg-transparent lg:py-16">
             <div
@@ -27,7 +27,7 @@ export default function HomeCta() {
             </div>
           </div>
 
-          <div className="relative bg-yellow-600 lg:col-span-10 lg:col-start-3 lg:row-start-1 lg:grid lg:grid-cols-10 lg:items-center lg:rounded-3xl">
+          <div className="relative bg-rob-roy-600 lg:col-span-10 lg:col-start-3 lg:row-start-1 lg:grid lg:grid-cols-10 lg:items-center lg:rounded-3xl">
             <div
               className="absolute inset-0 hidden overflow-hidden rounded-3xl lg:block"
               aria-hidden="true"
@@ -54,7 +54,7 @@ export default function HomeCta() {
                       y={0}
                       width={4}
                       height={4}
-                      className="text-yellow-500"
+                      className="text-rob-roy-500"
                       fill="currentColor"
                     />
                   </pattern>
@@ -87,7 +87,7 @@ export default function HomeCta() {
                       y={0}
                       width={4}
                       height={4}
-                      className="text-yellow-500"
+                      className="text-rob-roy-500"
                       fill="currentColor"
                     />
                   </pattern>
@@ -104,18 +104,18 @@ export default function HomeCta() {
                 className="text-3xl font-bold tracking-tight text-white"
                 id="join-heading"
               >
-                Join our team
+                Luchare por tus derechos
               </h2>
               <p className="text-lg text-white">
-                Varius facilisi mauris sed sit. Non sed et duis dui leo,
-                vulputate id malesuada non. Cras aliquet purus dui laoreet diam
-                sed lacus, fames.
+                Estoy dispuesta a ayudarte a encontrar las mejores soluciones y
+                a luchar por tus derechos. ¡No dudes en llamarme o enviarme un
+                mensaje para más información!
               </p>
               <a
-                className="block w-full rounded-md border border-transparent bg-white py-3 px-5 text-center text-base font-medium text-yellow-700 shadow-md hover:bg-gray-50 sm:inline-block sm:w-auto"
+                className="block w-full rounded-md border border-transparent bg-white py-3 px-5 text-center text-base font-medium text-rob-roy-700 shadow-md hover:bg-gray-50 sm:inline-block sm:w-auto"
                 href="#"
               >
-                Explore open positions
+                Contactame
               </a>
             </div>
           </div>
