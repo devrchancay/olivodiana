@@ -1,6 +1,5 @@
 import Image from "next/image";
 
-
 export default function OtherInfo() {
   return (
     <div className="relative bg-gray-900">
@@ -8,6 +7,7 @@ export default function OtherInfo() {
         <div className="h-full w-full xl:grid xl:grid-cols-2">
           <div className="h-full xl:relative xl:col-start-2">
             <Image
+              priority
               className="h-full w-full object-cover opacity-25 xl:absolute xl:inset-0"
               src="/img/lawyer-front.jpeg"
               width={768}
@@ -30,10 +30,11 @@ export default function OtherInfo() {
             Si estás enfrentando un problema legal no dudes en contactarme
           </p>
           <p className="mt-5 text-lg text-gray-300">
-            Rhoncus sagittis risus arcu erat lectus bibendum. Ut in adipiscing
-            quis in viverra tristique sem. Ornare feugiat viverra eleifend fusce
-            orci in quis amet. Sit in et vitae tortor, massa. Dapibus laoreet
-            amet lacus nibh integer quis. Eu vulputate diam sit tellus quis at.
+            Soluciones legales efectivas para ti. Con años de experiencia y un
+            enfoque personalizado, Diana Olivo está aquí para ayudarte a
+            resolver tus preocupaciones legales. Confía en nosotros para
+            defender tus derechos y lograr los resultados que mereces. ¡Agenda
+            hoy mismo una consulta!
           </p>
         </div>
       </div>
