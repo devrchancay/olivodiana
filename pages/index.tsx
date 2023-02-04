@@ -6,6 +6,7 @@ import HomeCta from "../components/HomeCta";
 import Footer from "../components/Footer";
 import OtherInfo from "../components/OtherInfoHome";
 import dynamic from "next/dynamic";
+import Seo from "../components/Seo";
 
 const Testimonials = dynamic(() => import("../components/Testimonial"), {
   ssr: false,
@@ -55,6 +56,8 @@ export default function Home({ testimonials }: { testimonials: ITestimony[] }) {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
+
+        <Seo />
       </Head>
       <HomeHero />
       <FeatureHome />
