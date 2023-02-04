@@ -113,7 +113,7 @@ export default function HomeCta() {
               </p>
               <a
                 className="block w-full rounded-md border border-transparent bg-white py-3 px-5 text-center text-base font-medium text-rob-roy-700 shadow-md hover:bg-gray-50 sm:inline-block sm:w-auto"
-                href="#"
+                href="https://api.whatsapp.com/send/?phone=%2B593995559849&text=Hola!%20busco%20asesoria%20legal&type=phone_number&app_absent=0"
               >
                 Contactame
               </a>

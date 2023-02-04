@@ -81,7 +81,7 @@ export default function HomeHero() {
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <a
-                    href="#"
+                    href="https://api.whatsapp.com/send/?phone=%2B593995559849&text=Hola!%20busco%20asesoria%20legal&type=phone_number&app_absent=0"
                     className="flex w-full items-center justify-center rounded-md border border-transparent bg-rob-roy-600 px-8 py-3 text-base font-medium text-white hover:bg-rob-roy-700 md:py-4 md:px-10 md:text-lg"
                   >
                     Contacto
@@ -89,7 +89,7 @@ export default function HomeHero() {
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <a
-                    href="#"
+                    href="#about-us"
                     className="flex w-full items-center justify-center rounded-md border border-transparent bg-rob-roy-100 px-8 py-3 text-base font-medium text-rob-roy-700 hover:bg-rob-roy-200 md:py-4 md:px-10 md:text-lg"
                   >
                     Acerca de mí
